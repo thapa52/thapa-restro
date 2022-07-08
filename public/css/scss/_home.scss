@@ -1,0 +1,84 @@
+.home {
+  .heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    h1 {
+      font-size: 80px;
+      font-family: "Great Vibes";
+      font-weight: 400;
+      color: #eee;
+      span {
+        font-family: "Great Vibes", Arial, Helvetica, sans-serif;
+        font-size: 170px;
+        color: crimson;
+      }
+    }
+    .head-title::before {
+      position: absolute;
+      content: "";
+      width: 130px;
+      height: 4px;
+      bottom: 0;
+      left: 0;
+      border-radius: 7px;
+      background-color: crimson;
+    }
+    .head-title::after {
+      position: absolute;
+      content: "";
+      width: 65px;
+      height: 4px;
+      bottom: -20px;
+      left: 0;
+      border-radius: 7px;
+      background-color: crimson;
+    }
+  }
+  .wc-section {
+    .wc-text-1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 50px;
+      text-align: justify;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      line-height: 1.1;
+    }
+    .wc-text-2 {
+      color: #555;
+      font-weight: 500;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      line-height: 1.5;
+    }
+    .wc-img4 {
+      overflow: hidden;
+      img {
+        height: 600px;
+      }
+    }
+    .wc-contact {
+      margin-top: 60px;
+      h3 {
+        font-family: "Ubuntu", sans-serif;
+        font-size: 30px;
+      }
+      .wc-p {
+        background: #000;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 1;
+        p {
+          font-family: "Poppins", Arial, Helvetica, sans-serif;
+          font-size: 17px;
+          font-weight: 400;
+          color: #eddfb3;
+        }
+      }
+    }
+  }
+}

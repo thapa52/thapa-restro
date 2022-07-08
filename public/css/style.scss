@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Wallpoet&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lavishly+Yours&family=Sacramento&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 
 * {
@@ -17,4 +18,84 @@ html {
   scroll-behavior: smooth;
 }
 
-@import './scss/nav'
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  .section-title {
+    font-family: "Sacramento", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #777;
+    span {
+      font-family: "Sacramento", sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      color: crimson;
+    }
+  }
+  .section-title::before {
+    position: absolute;
+    content: "";
+    width: 75px;
+    height: 4px;
+    top: 155px;
+    left: 9%;
+    border-radius: 6px;
+    background-color: crimson;
+  }
+  .section-title::after {
+      position: absolute;
+      content: "";
+      width: 40px;
+      height: 4px;
+      top: 170px;
+      left: 9%;
+      border-radius: 6px;
+      background-color: crimson;
+    }
+}
+
+.footer{
+  background-color: #eee;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  .footer-title{
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .footer-title::before{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 2px;
+    bottom: -20px;
+    left: 30%;
+    background-color: #aaa;
+  }
+  .footer-title::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    bottom: -30px;
+    left: 40%;
+    background-color: #aaa;
+  }
+  p{
+    margin-top: 10px;
+    color: #777;
+  }
+}
+
+@import './scss/nav';
+@import './scss/banner';
+@import './scss/home';
+@import './scss/menu';
+@import './scss/events';
+@import './scss/gallery';
