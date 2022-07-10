@@ -1,0 +1,59 @@
+.event1 {
+  .event1-text1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .row {
+    padding: none;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #eee;
+    .col {
+        padding-left: 0;
+        padding-right: 0;
+        border-right: 2px solid #fff;
+      .event1-firstcol {
+        padding: 20px;
+        background-color: #222;
+        color: beige;
+        text-align: center;
+        h3 {
+          font-family: "Roboto Condensed", sans-serif;
+          font-weight: 500;
+          span {
+            font-family: "Tangerine", sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+          }
+        }
+        .event1-year {
+          font-family: "Tangerine", sans-serif;
+          font-size: 40px;
+          font-weight: 700;
+        }
+      }
+      .padd{
+        padding-top: 30px;
+          p{
+              font-family: "Roboto Condensed", sans-serif;
+              font-weight: 500;
+              font-size: 25px;
+              color: #777;
+              span{
+                  font-family: "Tangerine", sans-serif;
+                  font-size: 40px;
+                  font-weight: 700;
+                }
+            }
+        }
+        h4{
+            padding-top: 70px;
+            font-family: "Roboto Condensed", sans-serif;
+            font-weight: 500;
+        }
+    }
+  }
+}
