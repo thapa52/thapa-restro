@@ -24,66 +24,44 @@ const Welcome = () => {
               alfresco dining and our focus is on serving.
             </p>
             <div
-              id="carouselExampleIndicators"
+              id="carouselExampleControls"
               class="carousel slide"
-              data-bs-ride="true"
+              data-bs-ride="carousel"
             >
-              <div className="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-              </div>
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <img src={wcImg1} className="d-block w-100" alt="wcImg3" />
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src={wcImg1} class="d-block w-100" alt="..." />
                 </div>
-                <div className="carousel-item">
-                  <img src={wcImg2} className="d-block w-100" alt="wcImg3" />
+                <div class="carousel-item">
+                  <img src={wcImg2} class="d-block w-100" alt="..." />
                 </div>
-                <div className="carousel-item">
-                  <img src={wcImg3} className="d-block w-100" alt="wcImg3" />
+                <div class="carousel-item">
+                  <img src={wcImg3} class="d-block w-100" alt="..." />
                 </div>
               </div>
               <button
-                className="carousel-control-prev"
+                class="carousel-control-prev"
                 type="button"
-                data-bs-target="#carouselExampleIndicators"
+                data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev"
               >
                 <span
-                  className="carousel-control-prev-icon"
+                  class="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span className="visually-hidden">Previous</span>
+                <span class="visually-hidden">Previous</span>
               </button>
               <button
-                className="carousel-control-next"
+                class="carousel-control-next"
                 type="button"
-                data-bs-target="#carouselExampleIndicators"
+                data-bs-target="#carouselExampleControls"
                 data-bs-slide="next"
               >
                 <span
-                  className="carousel-control-next-icon"
+                  class="carousel-control-next-icon"
                   aria-hidden="true"
                 ></span>
-                <span className="visually-hidden">Next</span>
+                <span class="visually-hidden">Next</span>
               </button>
             </div>
           </div>

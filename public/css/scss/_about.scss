@@ -1,0 +1,116 @@
+.about {
+  .section-title {
+    text-align: center;
+  }
+  .section-title::before {
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 4px;
+    top: 160px;
+    left: 46%;
+    border-radius: 6px;
+    background-color: #aaa;
+  }
+  .section-title::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 4px;
+    top: 175px;
+    left: 48%;
+    border-radius: 6px;
+    background-color: #aaa;
+  }
+  .aboutIntro-section {
+    .about-intro {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      margin-bottom: 70px;
+      .about-intro-text1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 1.1;
+      }
+      .about-intro-text2 {
+        color: #777;
+        font-weight: 500;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 1.5;
+      }
+    }
+    .vision-mission {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      position: relative;
+      .vm-title {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #777;
+        margin-bottom: 50px;
+      }
+      .col{
+        border-right: 2px solid #fff;
+        border-radius: 5px;
+        background-color: #ddd;
+        padding: 30px;
+        h2{
+          font-family: 'Wallpoet',sans-serif;
+          margin-bottom: 20px;
+        }
+        p{
+          font-family: 'Poppins', Arial, Helvetica, sans-serif;
+        }
+      }
+      .our-mission{
+        h2{
+          color: crimson;
+        }
+        p{
+          color: cadetblue;
+          padding-bottom: 25px;
+        }
+      }
+      .our-vision{
+        h2{
+          color: crimson;
+        }
+        p{
+          color: cadetblue;
+        }
+      }
+    }
+  }
+  .review {
+    .carousel {
+      .carousel-inner {
+        .carousel-item {
+          div {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            min-height: 100px;
+            text-align: center;
+            font-family: "Tangerine", sans-serif;
+            p {
+              margin-bottom: 20px;
+              font-size: 30px;
+            }
+            h3 {
+              font-weight: bold;
+              color: crimson;
+            }
+          }
+        }
+      }
+    }
+  }
+}
