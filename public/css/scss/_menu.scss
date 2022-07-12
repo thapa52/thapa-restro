@@ -1,68 +1,141 @@
 .menu {
-  background-color: #dddddd;
-  .menu-title {
-    font-family: "Great Vibes", Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-    text-align: justify;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    line-height: 1.1;
+  img {
+    width: 100%;
   }
-  .menu-nav {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    .menu-list {
-      list-style: none;
-      .menu-item {
-        text-decoration: none;
-        border: 2px solid crimson;
-        border-radius: 7px;
-        background: crimson;
-        color: #fff;
-        font-family: "Sacramento", Arial, Helvetica, sans-serif;
-        font-weight: 700;
-        font-size: 20px;
-        padding: 5px 20px;
-        transition: all 0.5s ease;
-      }
-      .menu-item:hover {
-        cursor: pointer;
-        background: none;
-        color: crimson;
-      }
+  .section-title {
+    text-align: center;
+  }
+  .section-title::before {
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 2px;
+    top: 160px;
+    left: 46%;
+    border-radius: 6px;
+    background-color: cadetblue;
+  }
+  .section-title::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    top: 175px;
+    left: 48%;
+    border-radius: 6px;
+    background-color: cadetblue;
+  }
+  .menu1 {
+    background-color: #eee;
+    .menu-title {
+      font-family: "Sacramento", Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      font-size: 40px;
+      text-align: justify;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      line-height: 1.1;
     }
-  }
-  .menu-item {
-    .card-menu {
-      width: 100%;
+    .menu-nav {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 20px;
-      img {
-        width: 150px;
-        height: 100%;
-      }
-      .card-body {
-        .card-title {
-          color: crimson;
-          font-size: 30px;
-          font-family: "Great Vibes";
+      justify-content: space-evenly;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      .menu-list {
+        list-style: none;
+        .menu-item {
+          text-decoration: none;
+          border: 2px solid cadetblue;
+          border-radius: 7px;
+          background: cadetblue;
+          color: #fff;
+          font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
           font-weight: 700;
+          font-size: 20px;
+          padding: 5px 20px;
+          transition: all 0.5s ease;
         }
-        .card-text {
-          font-size: 16px;
-          color: #777;
+        .menu-item:hover {
+          cursor: pointer;
+          background: none;
+          color: cadetblue;
         }
       }
-      .card-price {
-        font-family: "Tangerine", sans-serif;
-        font-size: 30px;
-        font-weight: 700;
+    }
+    .menu-item {
+      .card-menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        img {
+          width: 150px;
+          height: 100%;
+        }
+        .card-body {
+          .card-title {
+            color: cadetblue;
+            font-size: 30px;
+            font-family: "Roboto Condensed";
+            font-weight: 400;
+          }
+          .card-text {
+            font-size: 16px;
+            color: #777;
+          }
+        }
+        .card-price {
+          font-family: "Tangerine", sans-serif;
+          font-size: 30px;
+          font-weight: 700;
+          color: cadetblue;
+        }
       }
     }
   }
+  .event1 {
+    .event1-text1 {
+      font-family: "Roboto Condensed", sans-serif;
+    }
+    .row {
+      .col {
+        .event1-firstcol {
+          background-color: cadetblue;
+        }
+        .padd{
+          padding-top: 30px;
+            p{
+                color: cadetblue;
+              }
+          }
+          h4{
+              color: cadetblue;
+          }
+      }
+    }
+  }
+  .review{
+    background-color: #ddd;
+    .review-title{
+        font-family: "Ubuntu", sans-serif;
+    }
+    .carousel{
+        .carousel-inner{
+            .carousel-item{
+                div{
+                    font-family: 'Great Vibes', sans-serif;
+                    p{
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+                    h3{
+                        font-family: 'Ubuntu';
+                        color: cadetblue;
+                    }
+                }
+            }
+        }
+    }
+}
 }

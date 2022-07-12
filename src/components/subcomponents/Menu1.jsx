@@ -1,6 +1,6 @@
 import React from 'react'
-import { images1 } from './subcomponents/Image'
-import MenuItem from './subcomponents/MenuItem'
+import { images1 } from './Image'
+import MenuItem from './MenuItem'
 
 
 const Menu1 = () => {
@@ -8,7 +8,7 @@ const Menu1 = () => {
     
 
     return (
-    <section className='menu'>
+    <section className='menu1'>
     <div className='container'>
         <h2 className='section-title'>Our Menu</h2>
         <div className='row'>

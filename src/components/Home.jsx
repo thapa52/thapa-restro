@@ -1,5 +1,5 @@
 import React from "react";
-import Menu1 from "./Menu1";
+import Menu1 from "./subcomponents/Menu1";
 import Banner from "./subcomponents/Banner";
 import Event1 from "./subcomponents/Event1";
 import Gallery1 from "./subcomponents/Gallery1";

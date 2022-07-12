@@ -1,0 +1,47 @@
+.services{
+    background-color: #EDDFB3;
+    p{
+        color: #555;
+        
+        font-family: 'Ubuntu';
+        font-size: 20px;
+        text-align: justify;
+    }
+    .service-content{
+        margin-bottom: 70px;
+        .service-title{
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    }
+    .service-packages{
+        h2{
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .card{
+            h4{
+                color: #EDDFB3;
+            }
+            .card-body{
+                p{
+                    font-size: 18px;
+                }
+                h4{
+                    color: #333;
+                    margin-bottom: 20px;
+                }
+                li{
+                    color: #444;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
