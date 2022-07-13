@@ -7,6 +7,7 @@ import About from './components/About';
 import Menu from './components/Menu';
 import Gallery from './components/Gallery';
 import Services from './components/Services';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
             <Route path='/menu' element={<Menu />} />
             <Route path='/gallery' element={<Gallery />} />
             <Route path='/services' element={<Services />} />
+            <Route path='/services' element={<Services />} />
+            <Route path='/contact' element={<Contact />} />
         </Routes>
         <Footer />
     </div>

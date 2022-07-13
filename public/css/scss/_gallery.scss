@@ -1,6 +1,6 @@
 .gallery {
-  background-color: #555;
-  h2 {
+  background-color: #323232;
+  h3 {
     color: #eee;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
@@ -26,6 +26,10 @@
       transition: all 0.5s ease;
     }
   }
+.review,.clients{
+  background-color: #323232;
+  color: #EDDFB3;
+}
 }
 .gallery1 {
   background-color: #111;

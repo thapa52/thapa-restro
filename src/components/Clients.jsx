@@ -8,8 +8,8 @@ import ClientImg from './subcomponents/ClientImg'
 const Clients = () => {
   return (
     <section className='clients'>
-        <h2 className='section-title'>Corporate Clients</h2>
         <div className='container'>
+        <h2 className='section-title'>Corporate Clients</h2>
         <OwlCarousel items={4} margin={8} autoPlay={true} >
           {clientImage.map((client,index) => <ClientImg 
             key={index}

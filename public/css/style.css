@@ -593,6 +593,101 @@ section .section-title::after {
   font-size: 17px;
 }
 
+.contacts {
+  background-color: #333;
+}
+
+.contacts .section-title {
+  color: #aaa;
+}
+
+.contacts .first {
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #ddd;
+}
+
+.contacts .first h3 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.contacts .first p {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #bbb;
+}
+
+.contacts .first form {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.contacts .second {
+  background-color: #eee;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.contacts .second span {
+  font-family: 'Tangerine', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.contacts .second .location h3 {
+  font-family: 'Great Vibes', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  position: relative;
+}
+
+.contacts .second .location h3::before {
+  position: absolute;
+  content: '';
+  width: 130px;
+  height: 1px;
+  bottom: -5px;
+  left: 0;
+  background-color: #333;
+}
+
+.contacts .second .location p {
+  font-size: 20px;
+}
+
+.contacts .second .phone-num p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contacts .second .email p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contacts .second .email p span {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.contacts .review, .contacts .clients {
+  background-color: #ddd;
+}
+
+.contacts .review .section-title, .contacts .clients .section-title {
+  color: #777;
+}
+
 .menu1 {
   background-color: #dddddd;
 }
@@ -760,10 +855,10 @@ section .section-title::after {
 }
 
 .gallery {
-  background-color: #555;
+  background-color: #323232;
 }
 
-.gallery h2 {
+.gallery h3 {
   color: #eee;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
@@ -801,6 +896,11 @@ section .section-title::after {
           box-shadow: 0 0 10px 0 #ddd;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+.gallery .review, .gallery .clients {
+  background-color: #323232;
+  color: #EDDFB3;
 }
 
 .gallery1 {
