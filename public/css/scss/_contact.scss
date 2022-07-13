@@ -1,83 +1,117 @@
-.contacts{
-    background-color: #333;
-    .section-title{
-        color: #aaa;
+.contacts {
+  background-color: #212121;
+  .section-title {
+    color: #6d9886;
+  }
+  .first {
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ddd;
+    h3 {
+      font-weight: 600;
+      font-size: 40px;
+      color: #6d9886;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #d9cab3;
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    form {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 30px;
+      input,
+      textarea {
+        background-color: #f6f6f6;
       }
-    .first{
-        font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
-        text-align: center;
-        color: #ddd;
-        h3{
-            font-weight: 600;
-            font-size: 40px;
-            margin-bottom: 20px;
-        }
-        p{
-            font-weight: 500;
-            font-size: 20px;
-            margin-bottom: 20px;
-            color: #bbb;
-        }
-        form{
-            margin-left: auto;
-            margin-right: auto;
-            padding: 30px;
-        }
+      .form-control::placeholder {
+        color: #6d9886;
+      }
+      .btn{
+        background: #6d9886;
+        border: 2px solid #6d9886;
+        border-radius: 7px;
+        color: #f6f6f6;
+        padding: 10px 15px;
+        font-size: 18px;
+      }
+      .btn:hover{
+        background: none;
+        border: 2px solid #6d9886;
+        color: #6d9886;
+      }
     }
-    .second{
-        background-color: #eee;
-        height: fit-content;
-        font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
-        padding-left: 50px;
-        padding-top: 50px;
-        padding-bottom: 30px;
-        span{
-            font-family: 'Tangerine', sans-serif;
-            font-weight: 700;
-            font-size: 30px;
-        }
-        .location{
-            h3{
-                font-family: 'Great Vibes', sans-serif;
-                font-weight: 500;
-                font-size: 30px;
-                position: relative;
-            }
-            h3::before{
-                position: absolute;
-                content: '';
-                width: 130px;
-                height: 1px;
-                bottom: -5px;
-                left: 0;
-                background-color: #333;
-            }
-            p{
-                font-size: 20px;
-            }
-        }
-        .phone-num{
-            p{
-                font-weight: 700;
-                font-size: 20px;
-            }
-        }
-        .email{
-            p{
-                font-weight: 700;
-                font-size: 20px;
-                span{
-                    font-family: inherit;
-                    font-weight: 400;
-                    font-size: 18px;
-                }
-            }
-        }
+  }
+  .second {
+    background-color: #f6f6f6;
+    border-radius: 8px;
+    color: #6d9886;
+    height: fit-content;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    span {
+      font-family: "Tangerine", sans-serif;
+      font-weight: 700;
+      font-size: 30px;
     }
-    .review, .clients{
-        background-color: #ddd;
-        .section-title{
-            color: #777;
-        }
+    .location {
+      h3 {
+        font-family: "Great Vibes", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        position: relative;
+      }
+      h3::before {
+        position: absolute;
+        content: "";
+        width: 130px;
+        height: 1px;
+        bottom: -5px;
+        left: 0;
+        background-color: #333;
+      }
+      p {
+        font-size: 20px;
+      }
     }
+    .phone-num {
+      p {
+        font-weight: 600;
+        font-size: 20px;
+      }
+    }
+    .email {
+      p {
+        font-weight: 600;
+        font-size: 20px;
+        span {
+          font-family: inherit;
+          font-weight: 400;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .review,
+  .clients {
+    background-color: #f6f6f6;
+  }
+  .review {
+    .review-title {
+      color: #d9cab3;
+    }
+    .carousel-item {
+      p {
+        color: #212121;
+      }
+      h3 {
+        color: #6d9886;
+      }
+    }
+  }
 }

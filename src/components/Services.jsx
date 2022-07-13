@@ -33,12 +33,12 @@ const Services = () => {
                       <li>Weekly - Rs930</li>
                       <li>Monthly - 3600</li>
                     </ul>
-                    <button
-                      type="button"
-                      class="w-100 btn btn-lg btn-outline-dark"
+                    <a
+                      href="/order"
+                      class="w-100 btn btn-lg"
                     >
                       Click to Order
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -56,12 +56,12 @@ const Services = () => {
                       <li>A kitty party</li>
                       <li>Any other small party.</li>
                     </ul>
-                    <button
-                      type="button"
-                      class="w-100 btn btn-lg btn-outline-dark"
+                    <a
+                      href="/order"
+                      class="w-100 btn btn-lg"
                     >
                       Click to Order
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -79,12 +79,12 @@ const Services = () => {
                       <li>Non-Veg Lunch Catering Services</li>
                       <li>Brunch Catering Services</li>
                     </ul>
-                    <button
-                      type="button"
-                      class="w-100 btn btn-lg btn-outline-dark"
+                    <a
+                      href="/order"
+                      class="w-100 btn btn-lg"
                     >
                       Click to Order
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -102,12 +102,12 @@ const Services = () => {
                       <li>Green Chilly Pickle </li>
                       <li>Mango Lungi Pickle</li>
                     </ul>
-                    <button
-                      type="button"
-                      class="w-100 btn btn-lg btn-outline-dark"
+                    <a
+                      href="/order"
+                      class="w-100 btn btn-lg"
                     >
                       Click to Order
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>

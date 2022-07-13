@@ -1,7 +1,11 @@
 .gallery {
-  background-color: #323232;
+  background-color: #2c3333;
+  color: #eeedde;
+  .section-title {
+    color: #d8e9a8;
+  }
   h3 {
-    color: #eee;
+    color: #eeedde;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -26,10 +30,11 @@
       transition: all 0.5s ease;
     }
   }
-.review,.clients{
-  background-color: #323232;
-  color: #EDDFB3;
-}
+  .review,
+  .clients {
+    background-color: #2c3333;
+    color: #d8e9a8;
+  }
 }
 .gallery1 {
   background-color: #111;

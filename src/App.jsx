@@ -8,6 +8,7 @@ import Menu from './components/Menu';
 import Gallery from './components/Gallery';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Order from './components/Order';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
             <Route path='/gallery' element={<Gallery />} />
             <Route path='/services' element={<Services />} />
             <Route path='/services' element={<Services />} />
+            <Route path='/order' element={<Order />} />
             <Route path='/contact' element={<Contact />} />
         </Routes>
         <Footer />
